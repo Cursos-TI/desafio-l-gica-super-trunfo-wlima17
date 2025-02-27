@@ -95,15 +95,6 @@ int main() {
     printf("Densidade Populacional: %.2f\n", densidadePopulacao2);
     printf("Pib per Capita: %.2f\n",pibPerCapita2);
     printf("Super poder: %.2f\n", superPoder2);
-
-    //Declarei variáveis para armazenaraas cartas vencedoras nos desafios
-    /*int compara_populacao = populacao_c1 > populacao_c2;
-    int compara_area = area_c1 > area_c2;
-    int compara_pib = pib_c1 > pib_c2;
-    int compara_pontosturisticos = pontos_turisticos_c1 > pontos_turisticos_c2;
-    int compara_densidadepopulacional = densidade_populacao_c1 < densidade_populacao_c2;
-    int compara_pibpercapita = pib_percapita_c1 > pib_percapita_c2;
-    int compara_superpoder = super_poder_c1 > super_poder_c2;*/
      
     printf("*** Comparação de Cartas ***\n");
     //Bloco utilizando a lógica da função if e else para apresentar as cartas vencedoras após a comparação
