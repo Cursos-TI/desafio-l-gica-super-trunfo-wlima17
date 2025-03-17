@@ -191,37 +191,37 @@ int main() {
  
     case 2:
         printf("Você escolheu o atributo População. \n");
-        resultado1 = populacao1 > populacao2 ? 1 : 0;
+        resultado2 = populacao1 > populacao2 ? 1 : 0;
         break;
  
     case 3:
         printf("Você escolheu o atributo Área. \n");
-        resultado1 = area1 > area2 ? 1 : 0;
+        resultado2 = area1 > area2 ? 1 : 0;
         break;
  
     case 4:
         printf("Você escolheu o atributo PIB. \n");
-        resultado1 = pib1 > pib2 ? 1 : 0;
+        resultado2 = pib1 > pib2 ? 1 : 0;
         break;
  
     case 5:
         printf("Você escolheu o atributo Números de Pontos Turísticos. \n");
-        resultado1 = pontosTuristicos1 > pontosTuristicos2 ? 1 : 0;
+        resultado2 = pontosTuristicos1 > pontosTuristicos2 ? 1 : 0;
         break;
  
     case 6:
         printf("Você escolheu o atributo Densidade Demográfica. \n");
-        resultado1 = densidadeDemografica1 < densidadeDemografica2 ? 1 : 0;
+        resultado2 = densidadeDemografica1 < densidadeDemografica2 ? 1 : 0;
         break;
  
     case 7:
         printf("Você escolheu o atributo PIB per Capita. \n");
-        resultado1 = pibPerCapita1 > pibPerCapita2 ? 1 : 0;
+        resultado2 = pibPerCapita1 > pibPerCapita2 ? 1 : 0;
         break;
  
     case 8:
         printf("Você escolheu o atributo Densidade Demográfica. \n");
-        resultado1 = superPoder1 > superPoder2 ? 1 : 0;
+        resultado2 = superPoder1 > superPoder2 ? 1 : 0;
         break;
     
     default:
